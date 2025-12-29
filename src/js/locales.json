@@ -1,0 +1,75 @@
+{
+  "ru": {
+    "translation": {
+      "": "Meta ----------------------------------------",
+      "meta_title": "Wondary: Учить редкие и интереcные слова",
+      "meta_description": "Wondary - мобильное приложение для изучения редких слов и терминов. Для тех, кто хочет расширить словарный запас и обогатить речь",
+      "meta_keywords": "Wondary, изучение слов, редкие слова, словарный запас, интересные слова, необычные слова, тренировки слов, обучение словам, запоминание терминов, лексика, приложение для слов, термины, изучение языка",
+      "meta_policy_title": "Wondary: Политика конфиденциальности",
+
+      "": "Langs ----------------------------------------",
+      "ru": "Русский",
+      "en": "Английский",
+
+      "": "Main section ----------------------------------------",
+      "main_title": "Изучайте редкие и интересные слова",
+      "main_text": "Изучайте редкие и интересные слова в любое время и в любом месте",
+      "available": "Доступно в",
+
+      "": "Benefits section ----------------------------------------",
+      "benefits_title": "Почему это приложение?",
+      "benefits_text": "Ключевые преимущества, которые делают обучение эффективным",
+      "benefit1_title": "Большая база слов",
+      "benefit1_text": "Интересные слова из множества тематических категорий",
+      "benefit2_title": "Подробная статистика",
+      "benefit2_text": "Следите за своим прогрессом и анализируйте свою активность",
+      "benefit3_title": "Гибкие настройки",
+      "benefit3_text": "Настройте приложение под себя для комфортного изучения",
+      "benefit4_title": "Различные тренировки",
+      "benefit4_text": "Комбинируйте разные методы, чтобы учить слова быстрее",
+
+      "": "Footer section ----------------------------------------",
+      "policy": "Политика конфиденциальности",
+      "support": "По всем вопросам пишите на <a href='mailto:support@wondary.digital?subject=Wondary%20%7C%20Поддержка'>support@wondary.digital</a>",
+      
+      "": "Policy ----------------------------------------",
+      "policy_full": "<p>Последнее обновление: 12 апреля 2025 г.</p>\n        <p>Данная страница предназначена для информирования посетителей о политике конфиденциальности, действующей в\n            отношении мобильного приложения <b>Wondary</b> и веб-сайта <b>wondary.digital</b>, включая порядок сбора, использования и раскрытия\n            информации.</p>\n        <p>Использование приложения или посещение сайта означает согласие пользователя с условиями настоящей политики.\n            Личная информация, при её наличии, может использоваться исключительно для обеспечения функционирования и\n            улучшения сервисов. Передача такой информации третьим лицам не осуществляется, за исключением случаев,\n            предусмотренных настоящей политикой конфиденциальности.</p>\n        <hr/>\n        <h5>1. Область действия</h5>\n        <p>Данная политика конфиденциальности распространяется на:</p>\n        <ul>\n            <li>Мобильное приложение <b>Wondary</b> (Android).</li>\n            <li>Сайт <b>wondary.digital</b>, служащий информационным ресурсом о приложении и хранилищем для этой\n                политики.\n            </li>\n        </ul>\n        <hr/>\n        <h5>2. Сбор и использование данных</h5>\n        <p><b>Приложение Wondary:</b></p>\n        <p>Для удобства пользования нашим сервисом может потребоваться, чтобы вы предоставили мне определенную личную\n            информацию. Запрашиваемая информация сохраняется исключительно на вашем устройстве и не передается\n            разработчику.</p>\n        <p>Приложение использует сторонние сервисы, которые могут собирать информацию, используемую для вашей\n            идентификации.</p>\n        <ul>\n            <li><b>Firebase Analytics</b> — для анонимной статистики использования приложения (например, количество\n                запусков,\n                переходов по экранам и т.п.).\n            </li>\n            <li><b>Firebase Crashlytics</b> — для отслеживания и устранения ошибок</li>\n        </ul>\n        <p>Эти сервисы могут собирать техническую информацию, такую как тип устройства, версия ОС, модель устройства и\n            общее поведение пользователя в рамках приложения. Все данные собираются анонимно и не используются для\n            идентификации пользователя.</p>\n        <p>Подробнее о том, как Google обрабатывает данные: <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a>\n        </p>\n        <p><b>Сайт wondary.digital:</b></p>\n        <p>Сайт не собирает и не обрабатывает какие-либо персональные данные, не использует куки и не содержит форм\n            обратной связи.</p>\n        <hr/>\n        <h5>3. Безопасность</h5>\n        <p>Приложение <b>Wondary</b> и сайт <b>wondary.digital</b> не обрабатывают и не\n            хранит персональные данные пользователей. Основной функционал приложения работает без подключения к\n            интернету, а сайт выполняет исключительно информационную функцию.</p>\n        <p>Автоматически собираемая техническая информация (например, сведения об ошибках и статистика использования)\n            обрабатывается сторонними сервисами Firebase (Analytics и Crashlytics), предоставляемыми компанией Google.\n            Эти сервисы применяют современные технические и организационные меры защиты, включая шифрование данных,\n            проверку подлинности и управление доступом.</p>\n        <p>Поскольку обработка персональных данных напрямую не осуществляется, риск несанкционированного доступа к информации минимален.</p>\n        <hr/>\n        <h5>4. Персональные данные детей</h5>\n        <p>Использование cервиса не допускается лицами, не достигшими возраста полной дееспособности в соответствии с\n            законодательством страны их гражданства. Персональные данные таких лиц не собираются и не обрабатываются без\n            получения согласия их законного представителя.</p>\n        <hr/>\n        <h5>5. Контактная информация</h5>\n        <p>Если у вас есть какие-либо вопросы или предложения, связанные с конфиденциальностью, можете связаться с\n            разработчиком по электронной почте по адресу:\n            <a href=\"mailto:support@wondary.digital\">support@wondary.digital</a></p>\n        <hr/>\n        <h5>6. Изменения политики</h5>\n        <p>Политика конфиденциальности может время от времени обновляться. Все изменения будут опубликованы на этом\n            сайте с обновлённой датой вступления в силу. Рекомендуем периодически проверять эту страницу для\n            ознакомления с актуальной версией.</p>"
+    }
+  },
+  "en": {
+    "translation": {
+      "": "Meta ----------------------------------------",
+      "meta_title": "Wondary: Learn rare and interesting words",
+      "meta_description": "Wondary is a mobile app for learning rare words and terms. Perfect for those who want to expand their vocabulary and enrich their speech.",
+      "meta_keywords": "Wondary, word learning, rare words, vocabulary, interesting words, unusual words, word training, word memorization, terminology, language learning, vocabulary app, terms",
+      "meta_policy_title": "Wondary: Privacy Policy",
+
+      "": "Langs ----------------------------------------",
+      "ru": "Russian",
+      "en": "English",
+
+      "": "Main section ----------------------------------------",
+      "main_title": "Remember rare words with purpose and fun",
+      "main_text": "An app for those who want to speak more precisely, vividly, and intelligently. No boredom — only fascinating words.",
+
+      "": "Benefits section ----------------------------------------",
+      "benefits_title": "Why this app?",
+      "benefits_text": "Key advantages that make learning effective",
+      "benefit1_title": "Large word database",
+      "benefit1_text": "Interesting words from various thematic categories",
+      "benefit2_title": "Detailed statistics",
+      "benefit2_text": "Track your progress and analyze your activity",
+      "benefit3_title": "Flexible settings",
+      "benefit3_text": "Customize the app for a comfortable learning experience",
+      "benefit4_title": "Various trainings",
+      "benefit4_text": "Combine different methods to learn words faster",
+
+      "": "Footer section ----------------------------------------",
+      "policy": "Privacy Policy",
+      "support": "For any inquiries, contact us at <a href='mailto:support@wondary.digital?subject=Wondary%20%7C%20Support'>support@wondary.digital</a>",
+
+      "": "Policy ----------------------------------------",
+      "policy_full": "<p>Last updated: April 12, 2025</p>\n        <p>This page is intended to inform visitors about the privacy policy applicable to the <b>Wondary</b> mobile application and the <b>wondary.digital</b> website, including the procedures for collecting, using, and disclosing information.</p>\n        <p>By using the application or visiting the website, the user agrees to the terms of this policy. Personal information, if any, may be used solely for the purpose of operating and improving the services. Such information is not shared with third parties, except as provided in this privacy policy.</p>\n        <hr/>\n        <h5>1. Scope</h5>\n        <p>This privacy policy applies to:</p>\n        <ul>\n            <li>The <b>Wondary</b> mobile application (Android).</li>\n            <li>The <b>wondary.digital</b> website, which serves as an informational resource about the application and a host for this policy.</li>\n        </ul>\n        <hr/>\n        <h5>2. Data Collection and Use</h5>\n        <p><b>Wondary App:</b></p>\n        <p>To improve user experience, the service may require providing certain personal information. Any such information is stored only on the user's device and is not transmitted to the developer.</p>\n        <p>The application uses third-party services that may collect information used to identify users.</p>\n        <ul>\n            <li><b>Firebase Analytics</b> – for anonymous usage statistics (e.g., number of launches, screen transitions, etc.).</li>\n            <li><b>Firebase Crashlytics</b> – for tracking and resolving errors.</li>\n        </ul>\n        <p>These services may collect technical information such as device type, OS version, device model, and general user behavior within the app. All data is collected anonymously and is not used to identify the user.</p>\n        <p>For more information on how Google processes data, visit: <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a></p>\n        <p><b>wondary.digital Website:</b></p>\n        <p>The website does not collect or process any personal data, does not use cookies, and does not include contact forms.</p>\n        <hr/>\n        <h5>3. Security</h5>\n        <p>The <b>Wondary</b> application and the <b>wondary.digital</b> website do not process or store personal user data. The core functionality of the application works without an internet connection, and the website serves only informational purposes.</p>\n        <p>Automatically collected technical information (e.g., crash reports and usage statistics) is processed by third-party Firebase services (Analytics and Crashlytics) provided by Google. These services apply modern technical and organizational measures to protect information, including data encryption, authentication, and access control.</p>\n        <p>Since personal data is not directly processed, the risk of unauthorized access is minimal.</p>\n        <hr/>\n        <h5>4. Children's Personal Data</h5>\n        <p>The service is not intended for individuals who have not reached the age of full legal capacity according to the laws of their country of citizenship. Personal data of such individuals is not collected or processed without the consent of their legal representative.</p>\n        <hr/>\n        <h5>5. Contact Information</h5>\n        <p>For any questions or suggestions regarding privacy, please contact the developer by email at:\n            <a href=\"mailto:support@wondary.digital\">support@wondary.digital</a></p>\n        <hr/>\n        <h5>6. Policy Changes</h5>\n        <p>This privacy policy may be updated from time to time. All changes will be published on this site with an updated effective date. It is recommended to review this page periodically for the most current version.</p>"
+    }
+  }
+}
