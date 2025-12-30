@@ -4,18 +4,9 @@ import locales from "./locales.json";
 const customSelect = document.querySelector(".select");
 const trigger = customSelect.querySelector(".trigger");
 const triggerContent = customSelect.querySelector(".trigger_content");
+const triggerText = trigger.querySelector("p");
 const options = customSelect.querySelectorAll(".option");
-const scrollBtn = document.getElementById("scrollBtn");
 const STORAGE_KEY = "selected_lang";
-
-if (scrollBtn) {
-  scrollBtn.addEventListener("click", function () {
-    const target = document.getElementById("download");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
-    }
-  });
-}
 
 // Detect browser lang
 function detectBrowserLang() {
@@ -113,16 +104,20 @@ window.addEventListener("DOMContentLoaded", () => {
 
 // Init select lang
 function initSelect(lang) {
-  const matchedOption = Array.from(options).find((option) => {
-    const img = option.querySelector("img");
-    return img && img.getAttribute("alt") === lang;
-  });
+  if (!lang) return;
 
-  if (matchedOption && triggerContent && options) {
-    triggerContent.innerHTML = matchedOption.innerHTML;
-    options.forEach((opt) => opt.classList.remove("active"));
-    matchedOption.classList.add("active");
-  }
+  const matchedOption = Array.from(options).find(
+    (option) => option.textContent.trim() === lang
+  );
+
+  if (!matchedOption) return;
+
+  // Update trigger
+  triggerText.textContent = lang;
+
+  // Active state
+  options.forEach((opt) => opt.classList.remove("active"));
+  matchedOption.classList.add("active");
 }
 
 // Open select
@@ -136,14 +131,19 @@ if (trigger) {
 options.forEach((option) => {
   option.addEventListener("click", () => {
     // Lang
-    const lang = option.querySelector("img").getAttribute("alt");
-    if (!lang || !customSelect || !customSelect) return;
+    const lang = option.dataset.lang;
+    console.log("lang", lang);
+    if (!lang) return;
+
+    // Update trigger
+    triggerText.textContent = lang;
 
     // Change option
-    triggerContent.innerHTML = option.innerHTML;
-    customSelect.classList.remove("open");
     options.forEach((opt) => opt.classList.remove("active"));
     option.classList.add("active");
+
+    // Close select
+    customSelect.classList.remove("open");
 
     // Save to localStorage
     localStorage.setItem(STORAGE_KEY, lang);

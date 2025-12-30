@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <!-- Meta -->
+  @@include('./blocks/main/head.html', { "title": "meta_policy_title", })
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      @@include('./blocks/header.html')
+
+      <!-- Policy section -->
+      <section class="policy">
+        <h1 data-i18n="policy"></h1>
+        <div data-i18n="policy_full"></div>
+      </section>
+
+      <!-- Footer -->
+      @@include('./blocks/footer.html')
+    </div>
+
+    <!-- Scripts -->
+    @@include('./blocks/main/js.html')
+  </body>
+</html>
