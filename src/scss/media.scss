@@ -1,9 +1,31 @@
+@use "./assets/variables.scss" as vars;
+
 //Max-Width: 1279px ================================
 @media (max-width: 1279px) {
 }
 
 //Max-Width: 1200px ================================
 @media (max-width: 1200px) {
+  .main {
+    .pattern {
+      width: 70%;
+    }
+  }
+
+  .benefits {
+    margin-top: 250px;
+
+    .pattern {
+      top: 850px;
+      left: -150px;
+    }
+  }
+
+  .footer {
+    .pattern {
+      width: 50%;
+    }
+  }
 }
 
 //Max-Width: 1150px ================================
@@ -16,6 +38,33 @@
 
 //Max-Width: 1023px ================================
 @media (max-width: 1023px) {
+  .main {
+    .images {
+      img {
+        width: 200px;
+        height: 410px;
+      }
+
+      .img1 {
+        margin-right: 20px;
+      }
+
+      .img2 {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  .benefits {
+    .pattern {
+      top: 900px;
+      width: 50%;
+    }
+  }
+
+  .footer {
+    margin-top: 200px;
+  }
 }
 
 //Max-Width: 950px ================================
@@ -24,6 +73,74 @@
 
 //Max-Width: 900px ================================
 @media (max-width: 900px) {
+  .main {
+    .content {
+      margin-right: 40px;
+
+      h1 {
+        font-size: 46px;
+        margin-bottom: 15px;
+        line-height: 46px;
+      }
+    }
+
+    .images {
+      img {
+        width: 200px;
+        height: 410px;
+      }
+
+      .img2 {
+        display: none;
+      }
+    }
+  }
+
+  .benefits {
+    margin-top: 150px;
+
+    .pattern {
+      top: 750px;
+    }
+
+    .content {
+      width: 350px;
+      margin-right: 50px;
+
+      h2 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .item {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+
+      .img {
+        width: 45px;
+        height: 30px;
+
+        img {
+          height: 30px;
+        }
+      }
+
+      h4 {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 150px;
+  }
 }
 
 //Max-Width: 850px ================================
@@ -33,6 +150,19 @@
 //Tablet ##########################################
 //Max-Width: 800px ================================
 @media (max-width: 800px) {
+  .benefits {
+    .pattern {
+      top: 780px;
+      left: -80px;
+    }
+  }
+
+  .footer {
+    .pattern {
+      transform: translateY(0px);
+      height: 70px;
+    }
+  }
 }
 
 //Max-Width: 750px ================================
@@ -46,10 +176,98 @@
 //Phone ###########################################
 //Max-Width: 641px ================================
 @media (max-width: 641px) {
+  .main {
+    .content {
+      margin-right: 30px;
+
+      .btns {
+        gap: 10px;
+      }
+
+      .store-btn {
+        padding: 5px 15px;
+      }
+    }
+  }
+
+  .benefits {
+    .pattern {
+      display: none;
+    }
+
+    .box {
+      display: block;
+    }
+
+    .content {
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 50px;
+
+      h2 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .item {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+
+      .img {
+        width: 45px;
+        height: 30px;
+
+        img {
+          height: 30px;
+        }
+      }
+
+      h4 {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 120px;
+  }
 }
 
 //Max-Width: 600px ================================
 @media (max-width: 600px) {
+  .main {
+    margin-top: 100px;
+
+    .content {
+      width: 100%;
+    }
+
+    .images {
+      display: none;
+    }
+  }
+
+  .footer {
+    .pattern {
+      height: 40px;
+      width: 80%;
+    }
+  }
+
+  .policy {
+    h1 {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 //Max-Width: 550px ================================
@@ -62,10 +280,67 @@
 
 //Max-Width: 450px ================================
 @media (max-width: 450px) {
+  .policy {
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
 }
 
 //Max-Width: 400px ================================
 @media (max-width: 400px) {
+  .main {
+    .content {
+      h1 {
+        font-size: 38px;
+        line-height: 40px;
+      }
+
+      .btns {
+        gap: 5px;
+      }
+
+      .store-btn {
+        img {
+          width: 20px;
+          height: 20px;
+        }
+
+        .pretitle {
+          font-size: 10px;
+          line-height: 10px;
+        }
+
+        .label {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .benefits {
+    .content {
+      margin-bottom: 50px;
+
+      h2 {
+        font-size: 30px;
+        line-height: 30px;
+      }
+    }
+
+    .item {
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+
+      h4 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
 
 //Max-Width: 359px ================================
